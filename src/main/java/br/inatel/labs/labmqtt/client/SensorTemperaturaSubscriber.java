@@ -27,7 +27,7 @@ public class SensorTemperaturaSubscriber {
                 (topic,msg) -> {
                     byte[] payload = msg.getPayload();
                     System.out.println("Payload recebido: " + payload);
-                    System.out.println("Topico recebido : " + topic);
+                    System.out.println("Topico recebido: " + topic);
                 });
 
         //4. desconecta
